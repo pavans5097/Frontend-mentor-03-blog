@@ -15,19 +15,23 @@
 }
 .wrapper:hover .imageinfo :nth-child(2){
     color: black;
-    
+    font-size: 0.82rem;
 
 }
 .text h1:hover{
     color:hsl(48, 88%, 63%) ;
+    font-size: 22px;
     
 }
 .wrapper:hover .text p{
     color: black;
+    font-size: 0.93rem;
 }
 .wrapper:hover .avatar-name > img{
     filter: none;
+    width: 1.93;
 }
 .wrapper:hover .avatar-name span{
     color: black ;
+    font-size: 0.8rem;
 }
