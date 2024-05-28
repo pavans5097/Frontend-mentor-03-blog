@@ -1,0 +1,43 @@
+.wrapper:hover{
+    width: 385px;
+    min-height: 525px;
+    box-shadow: 12px 12px 5px black;
+    cursor: pointer;
+}
+.wrapper:hover >img{
+    width: 340px;
+    filter: none;
+}
+.wrapper:hover .imageinfo :first-child{
+    background-color: hsl(47, 88%, 63%);
+    width: 85px;
+    color: black;
+}
+.wrapper:hover .imageinfo :nth-child(2){
+    font-size: 1rem;
+    color: black;
+    
+
+}
+.wrapper:hover .text h1{
+    font-size: 26px;
+    
+}
+.text h1:hover{
+    color:hsl(48, 88%, 63%) ;
+    
+    
+}
+.wrapper:hover .text p{
+    color: black;
+    font-size: 1.11rem;
+}
+.wrapper:hover .avatar-name > img{
+    filter: none;
+    width: 2.3rem;
+}
+.wrapper:hover .avatar-name span{
+    color: black ;
+    font-size: 0.95rem;
+    
+}

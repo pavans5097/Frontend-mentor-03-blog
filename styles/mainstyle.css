@@ -1,0 +1,112 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+}
+.wrapper{
+    width: 380px;
+    box-sizing: border-box;
+    min-height: 520px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 10px 10px 3px black;
+    padding: 20px;
+    align-items: center;
+    border: 1.58px solid black;
+    border-radius: 1.3rem;
+    transition: all 150ms ease-in 30ms;
+}
+.wrapper> img{
+    width: 335px;
+    border-radius:0.8rem ;
+    filter: blur(0.39rem) grayscale();
+    transition: all 150ms ease-in 30ms;
+
+    
+}
+.wrapper ul{
+    margin: 20px 0 20px  0;
+    list-style: none;
+    padding: 0 4px;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.9rem;
+    flex-direction: column;
+    
+}
+.imageinfo :first-child{
+    padding: 6px 0;
+    width: 80px;
+    color: rgb(65, 65, 64);
+    background-color: grey;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 800;
+    font-family: "Figtree", sans-serif;
+    transition: all 150ms ease-in 30ms;
+    
+}
+.imageinfo :nth-child(2){
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: rgb(168, 166, 166);
+    font-family:"Figtree", sans-serif ;
+    transition: all 150ms ease-in 30ms;
+}
+
+.text{
+    font-family: "Figtree", sans-serif;
+    box-sizing: border-box;
+    padding: 0px 4px;
+}
+.text h1{
+    font-size: 24px;
+    font-weight: 800;
+    color: rgb(172, 164, 164);
+    transition: all 150ms ease-in 30ms;
+}
+.text p{
+    margin: 1rem 0;
+    font-size: 1.08rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    color: rgb(172, 164, 164);
+    transition: all 150ms ease-in 30ms;
+}
+
+.avatar-name{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 0 4px;
+    gap: 10px;
+    
+}
+.avatar-name > img{
+    width: 2.2rem;
+    filter: blur(0.1rem) grayscale();
+    transition: all 150ms ease-in 30ms;
+}
+.avatar-name span{
+    font-family:"Figtree", sans-serif ;
+    font-weight: 800;
+    font-size: 0.89rem;
+    color: rgb(172, 164, 164);
+    transition: all 150ms ease-in 30ms;
+}
